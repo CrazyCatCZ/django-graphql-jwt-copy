@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "django-graphql-jwt"
+name = "django-graphql-jwt-copy"
 version = "0.3.4"
 description = "JSON Web Token for Django GraphQL."
 license = "MIT"

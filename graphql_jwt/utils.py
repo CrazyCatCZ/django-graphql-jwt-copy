@@ -141,4 +141,5 @@ def delete_cookie(response, key):
         key,
         path=jwt_settings.JWT_COOKIE_PATH,
         domain=jwt_settings.JWT_COOKIE_DOMAIN,
+        samesite="None"
     )
