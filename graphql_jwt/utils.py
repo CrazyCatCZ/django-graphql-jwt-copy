@@ -137,6 +137,7 @@ def set_cookie(response, key, value, expires):
 
 
 def delete_cookie(response, key):
+    print("This is test")
     response.delete_cookie(
         key,
         path=jwt_settings.JWT_COOKIE_PATH,
